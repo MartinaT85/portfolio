@@ -1,14 +1,13 @@
 import * as React from "react";
-import Seo from "../components/Seo";
+import Layout from "../components/Layout";
 
 // markup
 const IndexPage = () => {
   return (
     <>
-      <Seo />
-      <main>
+      <Layout>
         <h1>Hello from Index</h1>
-      </main>
+      </Layout>
     </>
   );
 };
